@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web dengan layout</title>
+    <style>
+        body{
+            font: 16px/28px arial, sans-serif;
+            background: #eaeaea;
+            color: #333;
+        }
+        .container{
+            width: 800px;
+            margin: auto;
+            background-color: #fff;
+        }
+        .header{
+            padding: 20px;
+            padding-bottom: 10px;
+        }
+        .header.judul{
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .header ul li{
+            display: inline-block;
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+        .header a{
+            text-decoration: none;
+            color: salmon;
+            padding: 3px;
+        }
+        .header a:hover{
+            background-color: lightskyblue;
+            color: #fff;
+        }
+        .hero{
+            height: 250px;
+            background-image: url(/aset/camera.jpg);
+            background-size: cover;
+            background-position: 70 - 200px;
+            border-bottom: 5px solid salmon;
+            border-top: 5px solid lightskyblue;
+        }
+        .content{
+            padding: 20px;
+        }
+        .content h2{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .content .penulis{
+            font-size: 11px;
+            margin-top: -5px;
+        }
+        .content .penulis a{
+            color: salmon;
+            text-decoration: none;
+        }
+        .content p{
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .footer{
+            background-color: #333;
+            padding: 10px;
+        }
+        .footer .copy{
+            color: #eaeaea;
+            text-align: center;
+            font-size: 12px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="judul">Home</h1>
+            <ul>
+                <li><a href="websaya.html">Home</a></li>
+                <li><a href="/About.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="hero"></div>
+        <div class="content">
+        <h2>Camera</h2>
+        <p class="penulis">ditulis oleh <a href="#">Rejo wiranata</a>. pada 19 februari 2024</p>
+        <p>Kamera atau tustel adalah alat yang digunakan untuk mengambil dan menyimpan gambar dan video,
+            baik secara digital melalui sensor gambar elektronik, atau secara kimia melalui bahan peka cahaya seperti film gulung.
+            Kamera merupakan alat paling populer dalam kegiatan fotografi. Nama ini didapat dari camera obscura, bahasa Latin untuk "ruang gelap",
+            yang ditemukan oleh Al Haitam atau Alhazen sekitar tahun 1000 Masehi, mekanisme awal untuk memproyeksikan tampilan di mana suatu ruangan berfungsi seperti cara kerja kamera fotografis yang modern,
+            tidak ada cara pada waktu itu untuk mencatat tampilan gambarnya selain secara manual mengikuti jejaknya. Dalam dunia fotografi, kamera merupakan suatu peranti untuk membentuk dan merekam suatu bayangan potret pada lembaran film.
+            Pada kamera televisi, sistem kanta membentuk gambar pada sebuah lempeng yang peka cahaya. Lempeng ini akan memancarkan elektron ke lempeng sasaran bila terkena cahaya. Selanjutnya, pancaran elektron itu diperlakukan secara elektronik.
+            Dikenal banyak jenis kamera potret.</p>
+
+
+            <h2>Sejarah</h2>
+        <p>Kamera berawal dari sebuah alat serupa yang dikenal dengan Kamera obscura yang merupakan kotak kamera yang belum di lengkapi dengan film untuk menangkap gambar atau bayangan. Pada abad ke 16 Girolamo Cardano melengkapi kamera obscura dengan lensa pada bagian depan kamera obscura tersebut. Meski demikian, bayangan yang dihasilkan ternyata tidak tahan lama, sehingga penemuan Girolamo belum dianggap sebagai dunia fotografi. Pada tahun 1727 Johann Scultze dalam penelitiannya menemukan bahwa garam perak sangat peka terhadap cahaya namun dia belum menemukan konsep bagaimana langkah untuk meneruskan gagasannya.
+            Foto tertua di dunia, Point de vue du Gras
+            Pada tahun 1826, Joseph Nicepore Niepce memublikasikan gambar dari bayangan yang dihasilkan kameranya, yang berupa gambaran kabur atap-atap rumah pada sebuah lempengan campuran timah yang dipekakan yang kemudian dikenal sebagai foto pertama. Kemudian, pada tahun 1839, Louis Daguerre mempublikasikan temuannya berupa gambar yang dihasilkan dari bayangan sebuah jalan di Paris pada sebuah pelat tembaga berlapis perak. Daguerre yang mengadakan kolaborasi pada tahun 1829 dengan Niepce meneruskan program pengembangan kamera, meski Niepce meninggal dunia pada 1833, mengembangkan kamera yang dikenal sebagai kamera daguerreotype yang dianggap praktis dalam dunia fotografi, di mana sebagai imbalan atas temuannya, Pemerintah Prancis memberikan hadiah uang pensiun seumur hidup kepada Daguerre dan keluarga Niepce. Kamera daguerreotype kemudian berkembang menjadi kamera yang dikembangkan sekarang.</p>
+
+            <h2>Lensa</h2>
+        <p>Sistem lensa
+            Sistem lensa dipasang pada lubang depan kotak,
+            berupa sebuah lensa tunggal yang terbuat dari plastik atau kaca,
+            atau sejumlah lensa yang tersusun dalam suatu silinder logam.
+            Tingkat penghalangan cahaya dinyatakan dengan angka f, atau bukaan relatifnya.
+            Makin rendah angka f ini, makin besar bukaannya atau makin kecil tingkat penghalangannya.
+            Bukaan ini diatur oleh jendela diafragma. Bukaan relatif diatur oleh suatu diafragma. Untuk kamera SLR,
+            lensa dilengkapi dengan pengatur bukaan diafragma yang mengatur banyaknya cahaya yang masuk sesuai keinginan fotografer.
+            Jenis lensa cepat ataupun lensa lambat ditentukan oleh rentang nilai F yang dapat digunakan. Di samping lensa biasa, dikenal juga lensa sudut lebar (wide lens), lensa sudut kecil (tele lens),
+            dan lensa variabel (variable lens, atau oleh kalangan awam disebut dengan istilah lensa zoom). Lensa sudut lebar mempunyai jarak fokus yang lebih kecil daripada lensa biasa. Namun sebutan itu bergantung pada lebarnya film yang digunakan.
+            Untuk film 35 milimeter, lensa 35 milimeter akan disebut lensa sudut lebar, sedangkan lensa 135 milimeter akan disebut lensa telefoto. Lensa variabel dapat diubah-ubah jarak fokusnya, dengan mengubah kedudukan relatif unsur-unsur lensa tersebut. Lensa akan memfokuskan cahaya sehingga dihasilkan bayangan sesuai ukuran film. Lensa dikelompokkan sesuai panjang focal length (jarak antara kedua lensa).
+            Focal length memengaruhi besar komposisi gambar yang mampu dihasilkan. Dalam masyarakat umum, lebih dikenal dengan istilah zoom.</p>
+        </div>
+
+        <div class="footer">
+            <p class="copy">Copyright 2024 - Rejo wiranata</p>
+
+        </div>
+    </div>
+</body>
+</html>

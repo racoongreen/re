@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font: 16px/28px arial, sans-serif;
+            background: #eaeaea;
+            color: #333;
+        }
+        .container{
+            width: 960px;
+            margin: auto;
+            background-color: #fff;
+        }
+        .header{
+            padding: 20px;
+            padding-bottom: 10px;
+        }
+        .header.judul{
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .header ul li{
+            display: inline-block;
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+        .header a{
+            text-decoration: none;
+            color: salmon;
+            padding: 3px;
+        }
+        .header a:hover{
+            background-color: lightskyblue;
+            color: #fff;
+        }
+        .img-container{
+            float: left;
+            width: 20%;
+            padding: 20px;
+            border: 1px solid black;
+            margin: 2px;
+            
+        }
+        .img-container a{
+            background-color: green;
+            color: aliceblue;
+            padding: 5px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .img-container p{
+            text-align: center;
+        }
+        .product::after{
+            content: '';
+            clear: both;
+            display: table;
+
+        }
+        
+        .footer{
+            background-color: #333;
+            padding: 10px;
+        }
+        .footer .copy{
+            color: #eaeaea;
+            text-align: center;
+            font-size: 12px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="judul">Service</h1>
+            <ul>
+                <li><a href="websaya.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+    <main>
+        <h2>Kami juga menyediakan :</h2>
+        <div class="product">
+            <div class="img-container">
+                <img src="/aset/service.jpg" alt="eror" style="width:100%" height="100%">
+                <p>customer service</p>
+                <a href="#" type="button">Pengaduan</a>
+            </div>
+            <div class="img-container">
+                <img src="/aset/OIP.jpg" alt="eror" style="width:100%" height="100%">
+                <p>Kami juga melayani penukaran kamera yang tidak sesuai</p>
+                <a href="#" type="button">Pengaduan</a>
+            </div>
+        </div>
+        
+    </main>
+
+        <div class="footer">
+            <p class="copy">Copyright 2024 - Rejo wiranata</p>
+
+        </div>
+</body>
+</html>
